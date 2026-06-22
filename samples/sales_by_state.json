@@ -1,0 +1,43 @@
+[
+  {
+    "_comment": "Home state — physical nexus, collecting correctly.",
+    "state": "FL",
+    "period_sales": 90000,
+    "period_orders": 1200,
+    "tax_collected": 6300,
+    "registered": true,
+    "home_state": true
+  },
+  {
+    "_comment": "MONEY SHOT — crossed economic nexus ($140k > $100k AND 320 > 200) but collecting $0.",
+    "state": "IL",
+    "period_sales": 140000,
+    "period_orders": 320,
+    "tax_collected": 0,
+    "registered": false
+  },
+  {
+    "_comment": "MONEY SHOT 2 — over the $100k dollar threshold, not collecting.",
+    "state": "PA",
+    "period_sales": 120000,
+    "period_orders": 150,
+    "tax_collected": 0,
+    "registered": false
+  },
+  {
+    "_comment": "Approaching CA's $500k threshold — monitor, no obligation yet.",
+    "state": "CA",
+    "period_sales": 380000,
+    "period_orders": 900,
+    "tax_collected": 0,
+    "registered": false
+  },
+  {
+    "_comment": "NY nuance — over $500k in dollars BUT under 100 sales, and NY requires BOTH. No nexus yet.",
+    "state": "NY",
+    "period_sales": 520000,
+    "period_orders": 90,
+    "tax_collected": 0,
+    "registered": false
+  }
+]
