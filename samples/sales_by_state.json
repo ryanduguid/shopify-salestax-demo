@@ -9,7 +9,7 @@
     "home_state": true
   },
   {
-    "_comment": "MONEY SHOT — crossed economic nexus ($140k > $100k AND 320 > 200) but collecting $0.",
+    "_comment": "Illinois, evaluated under the rule from 1 January 2026: $140k meets the $100k sales threshold; order count no longer creates nexus.",
     "state": "IL",
     "period_sales": 140000,
     "period_orders": 320,

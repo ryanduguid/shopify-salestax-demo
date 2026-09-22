@@ -68,4 +68,8 @@ python pipeline.py
 ## Honest notes
 
 - `nexus_check.py` is a **registration/economic-nexus signal only** — not marketplace-facilitator carve-outs, product taxability, local district rates, or the exact tax due. Production leans on the full OA skill + an agent step; the named-CPA sign-off makes the verdict relianceable.
-- Thresholds (CA/TX $500k, NY $500k AND 100, IL $100k/200, PA/FL $100k) are real post-Wayfair figures; live, every value comes from `get_skill`. The verifier (Amir Pelinkovic) is the real OpenAccountants US lead.
+- Thresholds (CA/TX $500k, NY $500k AND 100, IL $100k from 1 January 2026, PA/FL $100k) are real post-Wayfair figures; live, every value comes from `get_skill`. The verifier (Amir Pelinkovic) is the real OpenAccountants US lead.
+
+The Illinois sample uses the rule effective 1 January 2026: $100,000 or more of qualifying gross receipts, without the former 200-transaction test. Its period totals must cover the applicable preceding 12-month measurement window, evaluated quarterly. Do not use this rule for a historical pre-2026 assessment. Physical presence and existing collection obligations require separate consideration. Source: [Illinois bulletin FY 2026-12](https://tax.illinois.gov/research/publications/bulletins/fy-2026-12.html).
+
+Run the offline checks with `python -m unittest discover -s tests -v`.
