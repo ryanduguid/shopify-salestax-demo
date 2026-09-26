@@ -1,27 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="630" viewBox="0 0 1080 630" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="14">
-<rect width="1080" height="630" rx="10" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="822" height="1224" viewBox="0 0 822 1224" font-family="SFMono-Regular,Consolas,Menlo,monospace" font-size="14">
+<rect width="822" height="1224" rx="10" fill="#0d1117"/>
 <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
 <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
 <circle cx="60" cy="18" r="6" fill="#27c93f"/>
-<text x="24" y="40" xml:space="preserve" fill="#58a6ff">Shopify → OpenAccountants · sales-tax economic-nexus demo  [MOCK (set OA_MCP_TOKEN to use the live verified thresholds)]</text>
-<text x="24" y="84" xml:space="preserve" fill="#e6edf3">🏬  FL · $90,000 sales · 1200 orders · $6,300 collected</text>
-<text x="24" y="106" xml:space="preserve" fill="#39c5cf">    OpenAccountants → US sales-tax economic nexus (post-Wayfair)  (tier 1, signed off by Amir Pelinkovic (US lead))</text>
-<text x="24" y="128" xml:space="preserve" fill="#3fb950">    ✅ FL — home state (physical nexus), collecting ✓</text>
-<text x="24" y="150" xml:space="preserve" fill="#c9d1d9">       $90,000 in sales, $6,300 tax collected.</text>
-<text x="24" y="194" xml:space="preserve" fill="#e6edf3">🏬  IL · $140,000 sales · 320 orders · $0 collected</text>
-<text x="24" y="216" xml:space="preserve" fill="#39c5cf">    OpenAccountants → US sales-tax economic nexus (post-Wayfair)  (tier 1, signed off by Amir Pelinkovic (US lead))</text>
-<text x="24" y="238" xml:space="preserve" fill="#d29922">    ⚠️  IL — economic nexus CROSSED, not collecting</text>
-<text x="24" y="260" xml:space="preserve" fill="#c9d1d9">       $140,000 / 320 sales is over the $100,000 or 200 sales threshold — register and collect; unremitted tax is your liability.</text>
-<text x="24" y="304" xml:space="preserve" fill="#e6edf3">🏬  PA · $120,000 sales · 150 orders · $0 collected</text>
-<text x="24" y="326" xml:space="preserve" fill="#39c5cf">    OpenAccountants → US sales-tax economic nexus (post-Wayfair)  (tier 1, signed off by Amir Pelinkovic (US lead))</text>
-<text x="24" y="348" xml:space="preserve" fill="#d29922">    ⚠️  PA — economic nexus CROSSED, not collecting</text>
-<text x="24" y="370" xml:space="preserve" fill="#c9d1d9">       $120,000 / 150 sales is over the $100,000 threshold — register and collect; unremitted tax is your liability.</text>
-<text x="24" y="414" xml:space="preserve" fill="#e6edf3">🏬  CA · $380,000 sales · 900 orders · $0 collected</text>
-<text x="24" y="436" xml:space="preserve" fill="#39c5cf">    OpenAccountants → US sales-tax economic nexus (post-Wayfair)  (tier 1, signed off by Amir Pelinkovic (US lead))</text>
-<text x="24" y="458" xml:space="preserve" fill="#39c5cf">    ℹ️  CA — approaching nexus (76% of $500,000)</text>
-<text x="24" y="480" xml:space="preserve" fill="#c9d1d9">       $380,000 of the $500,000 threshold — monitor; no obligation yet.</text>
-<text x="24" y="524" xml:space="preserve" fill="#e6edf3">🏬  NY · $520,000 sales · 90 orders · $0 collected</text>
-<text x="24" y="546" xml:space="preserve" fill="#39c5cf">    OpenAccountants → US sales-tax economic nexus (post-Wayfair)  (tier 1, signed off by Amir Pelinkovic (US lead))</text>
-<text x="24" y="568" xml:space="preserve" fill="#39c5cf">    ℹ️  NY — no nexus yet (requires BOTH tests)</text>
-<text x="24" y="590" xml:space="preserve" fill="#c9d1d9">       $520,000 is over the $500,000 amount, but NY also needs 100+ sales — you have 90.</text>
+<text x="24" y="40" xml:space="preserve" fill="#58a6ff">Shopify → OpenAccountants · threshold demo [BUNDLED ILLUSTRATIVE RULES]</text>
+<text x="24" y="84" xml:space="preserve" fill="#e6edf3">🏬  FL · USD 90,000.00 sales · assessment 2026-09-26</text>
+<text x="24" y="106" xml:space="preserve" fill="#c9d1d9">    Period: 2025-01-01 to 2025-12-31</text>
+<text x="24" y="128" xml:space="preserve" fill="#39c5cf">    OpenAccountants → Illustrative state thresholds (unverified sample rules)</text>
+<text x="24" y="150" xml:space="preserve" fill="#39c5cf">    ℹ️ Supplied totals do not meet the modelled threshold</text>
+<text x="24" y="172" xml:space="preserve" fill="#c9d1d9">       This comparison does not establish nexus, collection timing, tax due or correct</text>
+<text x="24" y="194" xml:space="preserve" fill="#c9d1d9">       collection.</text>
+<text x="24" y="216" xml:space="preserve" fill="#c9d1d9">    Registration reported: yes</text>
+<text x="24" y="238" xml:space="preserve" fill="#c9d1d9">    Home state reported: yes</text>
+<text x="24" y="260" xml:space="preserve" fill="#c9d1d9">    Tax collected reported: USD 6,300.00; registration does not prove collection.</text>
+<text x="24" y="304" xml:space="preserve" fill="#e6edf3">🏬  IL · USD 140,000.00 sales · assessment 2026-09-26</text>
+<text x="24" y="326" xml:space="preserve" fill="#c9d1d9">    Period: 2025-07-01 to 2026-06-30</text>
+<text x="24" y="348" xml:space="preserve" fill="#39c5cf">    OpenAccountants → Illustrative state thresholds (unverified sample rules)</text>
+<text x="24" y="370" xml:space="preserve" fill="#d29922">    ⚠️ Supplied totals meet the modelled threshold</text>
+<text x="24" y="392" xml:space="preserve" fill="#c9d1d9">       This comparison does not establish nexus, collection timing, tax due or correct</text>
+<text x="24" y="414" xml:space="preserve" fill="#c9d1d9">       collection.</text>
+<text x="24" y="436" xml:space="preserve" fill="#c9d1d9">    Registration reported: no</text>
+<text x="24" y="458" xml:space="preserve" fill="#c9d1d9">    Home state reported: no</text>
+<text x="24" y="480" xml:space="preserve" fill="#c9d1d9">    Tax collected reported: USD 0.00; registration does not prove collection.</text>
+<text x="24" y="524" xml:space="preserve" fill="#e6edf3">🏬  PA · USD 120,000.00 sales · assessment 2026-09-26</text>
+<text x="24" y="546" xml:space="preserve" fill="#c9d1d9">    Period: 2025-01-01 to 2025-12-31</text>
+<text x="24" y="568" xml:space="preserve" fill="#39c5cf">    OpenAccountants → Illustrative state thresholds (unverified sample rules)</text>
+<text x="24" y="590" xml:space="preserve" fill="#d29922">    ⚠️ Supplied totals meet the modelled threshold</text>
+<text x="24" y="612" xml:space="preserve" fill="#c9d1d9">       This comparison does not establish nexus, collection timing, tax due or correct</text>
+<text x="24" y="634" xml:space="preserve" fill="#c9d1d9">       collection.</text>
+<text x="24" y="656" xml:space="preserve" fill="#c9d1d9">    Registration reported: no</text>
+<text x="24" y="678" xml:space="preserve" fill="#c9d1d9">    Home state reported: no</text>
+<text x="24" y="700" xml:space="preserve" fill="#c9d1d9">    Tax collected reported: USD 0.00; registration does not prove collection.</text>
+<text x="24" y="744" xml:space="preserve" fill="#e6edf3">🏬  CA · USD 380,000.00 sales · assessment 2026-09-26</text>
+<text x="24" y="766" xml:space="preserve" fill="#c9d1d9">    Period: 2026-01-01 to 2026-09-26</text>
+<text x="24" y="788" xml:space="preserve" fill="#c9d1d9">    Prior calendar-year sales: USD 300,000.00</text>
+<text x="24" y="810" xml:space="preserve" fill="#39c5cf">    OpenAccountants → Illustrative state thresholds (unverified sample rules)</text>
+<text x="24" y="832" xml:space="preserve" fill="#39c5cf">    ℹ️ Supplied totals do not meet the modelled threshold</text>
+<text x="24" y="854" xml:space="preserve" fill="#c9d1d9">       This comparison does not establish nexus, collection timing, tax due or correct</text>
+<text x="24" y="876" xml:space="preserve" fill="#c9d1d9">       collection.</text>
+<text x="24" y="898" xml:space="preserve" fill="#c9d1d9">    Registration reported: no</text>
+<text x="24" y="920" xml:space="preserve" fill="#c9d1d9">    Home state reported: no</text>
+<text x="24" y="942" xml:space="preserve" fill="#c9d1d9">    Tax collected reported: USD 0.00; registration does not prove collection.</text>
+<text x="24" y="986" xml:space="preserve" fill="#e6edf3">🏬  NY · USD 520,000.00 sales · assessment 2026-09-26</text>
+<text x="24" y="1008" xml:space="preserve" fill="#c9d1d9">    Period: 2025-09-01 to 2026-08-31</text>
+<text x="24" y="1030" xml:space="preserve" fill="#c9d1d9">    Eligible sales count: 90</text>
+<text x="24" y="1052" xml:space="preserve" fill="#39c5cf">    OpenAccountants → Illustrative state thresholds (unverified sample rules)</text>
+<text x="24" y="1074" xml:space="preserve" fill="#39c5cf">    ℹ️ Supplied totals do not meet the modelled threshold</text>
+<text x="24" y="1096" xml:space="preserve" fill="#c9d1d9">       This comparison does not establish nexus, collection timing, tax due or correct</text>
+<text x="24" y="1118" xml:space="preserve" fill="#c9d1d9">       collection.</text>
+<text x="24" y="1140" xml:space="preserve" fill="#c9d1d9">    Registration reported: no</text>
+<text x="24" y="1162" xml:space="preserve" fill="#c9d1d9">    Home state reported: no</text>
+<text x="24" y="1184" xml:space="preserve" fill="#c9d1d9">    Tax collected reported: USD 0.00; registration does not prove collection.</text>
 </svg>
