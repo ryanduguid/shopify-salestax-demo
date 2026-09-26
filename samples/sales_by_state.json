@@ -1,43 +1,63 @@
 [
   {
-    "_comment": "Home state — physical nexus, collecting correctly.",
     "state": "FL",
     "period_sales": 90000,
     "period_orders": 1200,
     "tax_collected": 6300,
     "registered": true,
-    "home_state": true
+    "home_state": true,
+    "assessment_date": "2026-09-26",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "sales_basis": "fl_taxable_remote_sales"
   },
   {
-    "_comment": "MONEY SHOT — crossed economic nexus ($140k > $100k AND 320 > 200) but collecting $0.",
     "state": "IL",
     "period_sales": 140000,
     "period_orders": 320,
     "tax_collected": 0,
-    "registered": false
+    "registered": false,
+    "assessment_date": "2026-09-26",
+    "period_start": "2025-07-01",
+    "period_end": "2026-06-30",
+    "sales_basis": "il_tpp_gross_receipts",
+    "home_state": false
   },
   {
-    "_comment": "MONEY SHOT 2 — over the $100k dollar threshold, not collecting.",
     "state": "PA",
     "period_sales": 120000,
     "period_orders": 150,
     "tax_collected": 0,
-    "registered": false
+    "registered": false,
+    "assessment_date": "2026-09-26",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "sales_basis": "pa_eligible_gross_sales",
+    "home_state": false
   },
   {
-    "_comment": "Approaching CA's $500k threshold — monitor, no obligation yet.",
     "state": "CA",
     "period_sales": 380000,
     "period_orders": 900,
     "tax_collected": 0,
-    "registered": false
+    "registered": false,
+    "assessment_date": "2026-09-26",
+    "period_start": "2026-01-01",
+    "period_end": "2026-09-26",
+    "sales_basis": "ca_related_tpp_sales",
+    "home_state": false,
+    "prior_year_sales": "300000"
   },
   {
-    "_comment": "NY nuance — over $500k in dollars BUT under 100 sales, and NY requires BOTH. No nexus yet.",
     "state": "NY",
     "period_sales": 520000,
     "period_orders": 90,
     "tax_collected": 0,
-    "registered": false
+    "registered": false,
+    "assessment_date": "2026-09-26",
+    "period_start": "2025-09-01",
+    "period_end": "2026-08-31",
+    "sales_basis": "ny_tpp_gross_receipts",
+    "home_state": false
   }
 ]
