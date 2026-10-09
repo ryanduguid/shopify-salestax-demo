@@ -1,5 +1,9 @@
 # Shopify → OpenAccountants: illustrative state thresholds
 
+**Fork status**
+
+[![Fork code quality](https://app.codacy.com/project/badge/Grade/14c2d469dbc941249f5e33a52cef917c?branch=main)](https://app.codacy.com/gh/ryanduguid/shopify-salestax-demo/dashboard)
+
 Compare explicitly scoped USD sales summaries with a fixed example of six
 state thresholds. The output distinguishes a threshold comparison from
 registration, reported tax collection and other possible nexus grounds.
