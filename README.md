@@ -1,17 +1,19 @@
 # Shopify → OpenAccountants: sales-tax economic-nexus demo
 
-**The pitch in one line:** Shopify takes the orders. OpenAccountants tells you **which states you now owe sales tax in** — the post-Wayfair economic-nexus lines you cross silently — signed off by a named licensed accountant.
+Demonstrates economic-nexus checks on Shopify-shaped sales totals using OpenAccountants sample thresholds, with an optional live MCP connection.
+
+Default runs use bundled sample responses. Their rates, verdicts and reviewer labels are illustrative fixtures, not evidence that an accountant reviewed the demo or a live Guide. For live use, check the fetched Guide's review status, reviewer, version and review date against the [review method](https://www.openaccountants.com/review-method). A jurisdiction lead's name alone does not establish review. Have a qualified professional review outputs before filing or acting on them.
 
 ```
 Shopify sales by state
   └─ { state, period_sales, orders, tax_collected }
-        └─ OpenAccountants MCP  →  load the verified nexus thresholds
+        └─ OpenAccountants MCP  →  load the nexus thresholds
               └─ Verdict:  ⚠️ nexus CROSSED, not collecting — register now   ← the catch
                            ℹ️  approaching the threshold — monitor
                            ℹ️  no nexus yet (some states need BOTH $ and count)
                            ✅ home state / collecting where required
                  · per-state threshold cited
-                 · the named CPA who signed off the rules
+                 · the Guide version's published review record, if present
 ```
 
 ![Shopify → OpenAccountants demo](demo.svg)
@@ -23,7 +25,7 @@ Shopify sales by state
 Since *South Dakota v. Wayfair* (2018), you owe sales tax in a state once your sales there cross an **economic-nexus threshold** — often **$100k or 200 transactions** — with **zero physical presence**. Cross it and not collect, and the unremitted tax becomes *your* liability, with penalties. It's the single biggest silent risk for any growing Shopify store, and nothing in the order flow warns you.
 
 - **Shopify = the orders and the totals.**
-- **OpenAccountants = the obligation.** Per-state thresholds, the AND/OR logic, physical vs economic nexus — verified, and signed off by a real accountant.
+- **OpenAccountants = the obligation.** Per-state thresholds, the AND/OR logic, physical vs economic nexus; using the loaded rules; check the Guide version's review record.
 
 ## What it shows
 
@@ -51,7 +53,7 @@ python pipeline.py samples/sales_by_state.json
 ### Go live
 
 ```bash
-export OA_MCP_TOKEN=...     # OpenAccountants account token (uses the live verified thresholds)
+export OA_MCP_TOKEN=...     # OpenAccountants account token (uses live Guide content; check review status)
 python pipeline.py
 ```
 
@@ -67,5 +69,5 @@ python pipeline.py
 
 ## Honest notes
 
-- `nexus_check.py` is a **registration/economic-nexus signal only** — not marketplace-facilitator carve-outs, product taxability, local district rates, or the exact tax due. Production leans on the full OA skill + an agent step; the named-CPA sign-off makes the verdict relianceable.
-- Thresholds (CA/TX $500k, NY $500k AND 100, IL $100k/200, PA/FL $100k) are real post-Wayfair figures; live, every value comes from `get_skill`. The verifier (Amir Pelinkovic) is the real OpenAccountants US lead.
+- `nexus_check.py` is a **registration/economic-nexus signal only**; not marketplace-facilitator carve-outs, product taxability, local district rates, or the exact tax due. Production leans on the full OA skill + an agent step; professional review must be established for the specific Guide version and your facts.
+- Thresholds (CA/TX $500k, NY $500k AND 100, IL $100k/200, PA/FL $100k) are real post-Wayfair figures; the bundled reviewer label is illustrative. Inspect the actual `get_skill` response and its review record in live mode.
