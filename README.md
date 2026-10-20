@@ -2,7 +2,7 @@
 
 **Fork status**
 
-[![Fork code quality](https://app.codacy.com/project/badge/Grade/14c2d469dbc941249f5e33a52cef917c?branch=main)](https://app.codacy.com/gh/ryanduguid/shopify-salestax-demo/dashboard)
+[![Fork code quality](https://img.shields.io/codacy/grade/14c2d469dbc941249f5e33a52cef917c/main?style=flat&labelColor=000000)](https://app.codacy.com/gh/ryanduguid/shopify-salestax-demo/dashboard)
 
 Compare explicitly scoped USD sales summaries with a fixed example of six
 state thresholds. The output distinguishes a threshold comparison from
