@@ -4,7 +4,7 @@
 
 **Fork status**
 
-[![Fork code quality](https://img.shields.io/codacy/grade/14c2d469dbc941249f5e33a52cef917c/main?style=flat&labelColor=000000)](https://app.codacy.com/gh/ryanduguid/shopify-salestax-demo/dashboard)
+[![Fork code quality](https://img.shields.io/codacy/grade/14c2d469dbc941249f5e33a52cef917c/main?style=flat&labelColor=000000)](https://app.codacy.com/gh/ryanduguid/shopify-salestax-demo/dashboard) [![Fork quality gate](https://sonarcloud.io/api/project_badges/measure?project=ryanduguid_shopify-salestax-demo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ryanduguid_shopify-salestax-demo)
 
 </div>
 
