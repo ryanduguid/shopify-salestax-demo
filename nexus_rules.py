@@ -1,6 +1,6 @@
 """Fixed illustrative threshold contract; sources and exclusions are in README.md."""
 
-# ponytail: Fixed 2026 snapshot; expand with verified state contracts and boundary tests.
+# Scope: fixed 2026 snapshot; expand with verified state contracts and boundary tests.
 RULES = {
     "schema": "state-threshold-screen-v1",
     "covered_from": "2026-01-01",
